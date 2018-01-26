@@ -1,9 +1,9 @@
 <project name="zklibrary" basedir="." default="copy">
 	<target name="copy">
 		<mkdir dir="lib" />
-		<get src="http://central.maven.org/maven2/org/fitnesse/fitlibrary/20050731/fitlibrary-20050731.jar" dest="lib/fitlibrary-2.0.jar" usetimestamp="true" verbose="true" retries="5" />
-		<get src="http://central.maven.org/maven2/org/fitnesse/fitnesse/20171212/fitnesse-20171212.jar" dest="lib/fitnesse.jar" usetimestamp="true" verbose="true" retries="5" />
-		<get src="https://sourceforge.mirrorservice.org/i/id/idempiere/binary.file/jarfile/4.1/fitlibraryweb-2.0.jar" dest="lib/fitlibraryweb-2.0.jar" usetimestamp="true" verbose="true" retries="5" />
+		<get src="https://github.com/Braulio14T/3.1copyjars/blob/master/org.idempiere.fitnesse.server/originals/fitlibrary-2.0.jar" dest="lib/fitlibrary-2.0.jar" usetimestamp="true" verbose="true" retries="5" />
+		<get src="https://github.com/Braulio14T/3.1copyjars/blob/master/org.idempiere.fitnesse.server/originals/fitnesse.jar" dest="lib/fitnesse.jar" usetimestamp="true" verbose="true" retries="5" />
+		<get src="https://github.com/Braulio14T/3.1copyjars/blob/master/org.idempiere.fitnesse.server/originals/fitlibraryweb-2.0.jar" dest="lib/fitlibraryweb-2.0.jar" usetimestamp="true" verbose="true" retries="5" />
 		<!--old version is 2.35, can't find out in maven also homepage.
 		when host old version (2.35) to bitbucket.org can't donwload by ant, maybe big file (even it's download normal with browse). 
 		
