@@ -1,0 +1,7 @@
+INDEX VERSION 1.130
+/home/brau/sources/idempier31/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/3103699529.index
+/org.adempiere.server/src/main/server
+/home/brau/sources/idempier31/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/2806040996.index
+/org.adempiere.ui.zk/WEB-INF/src
+/home/brau/sources/idempier31/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/1565068144.index
+/org.adempiere.webstore.resource/src

@@ -1,0 +1,7 @@
+INDEX VERSION 1.4+/home/brau/sources/idempier31/.metadata/.plugins/org.eclipse.wst.jsdt.core/indexes
+798243501.index
+3013441673.index
+517079176.index
+2806040996.index
+4074481582.index
+2449484858.index

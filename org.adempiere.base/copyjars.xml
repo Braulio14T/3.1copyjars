@@ -1,12 +1,12 @@
 <project name="zklibrary" basedir="." default="copy">
 	<target name="copy">
-		<!--<get src="https://github.com/Braulio14T/3.1copyjars/raw/master/org.adempiere.base/originals/bsh-engine.jar" dest="bsh-2.0b5.jar" usetimestamp="true" verbose="true" retries="5" />-->
+		<get src="https://github.com/Braulio14T/3.1copyjars/raw/master/org.adempiere.base/bsh-2.0b5.jar" dest="bsh-2.0b5.jar" usetimestamp="true" verbose="true" retries="5" />
 		<!-- bsf-all-3.0-beta3.jar replace for grovy-engine, jyyhon-enjine, bsh-engine
 	      http://mvnrepository.com/artifact/org.apache.bsf/bsf-all/3.0-beta3
 		  <get src="http://central.maven.org/maven2/org/apache/bsf/bsf-all/3.0-beta3/bsf-all-3.0-beta3.jar" dest="bsf-all-3.0-beta3.jar" usetimestamp="true" verbose="true" retries="5"/>
 		  -->
 		<!--<get src="https://bitbucket.org/idempiere/idempiere-experimental/downloads/jython-engine.jar" dest="jython-engine.jar" usetimestamp="true" verbose="true" retries="5" />-->
-		<get src="https://github.com/Braulio14T/3.1copyjars/blob/master/org.adempiere.base/originals/jython-engine.jar" dest="jython-engine.jar" usetimestamp="true" verbose="true" retries="5" />
+		<get src="https://github.com/Braulio14T/3.1copyjars/raw/master/org.adempiere.base/originals/jython-engine.jar" dest="jython-engine.jar" usetimestamp="true" verbose="true" retries="5" />
 		<get src="https://github.com/Braulio14T/3.1copyjars/raw/master/org.adempiere.base/originals/groovy-engine.jar" dest="groovy-engine.jar" usetimestamp="true" verbose="true" retries="5" />
 		<get src="https://github.com/Braulio14T/3.1copyjars/raw/master/org.adempiere.base/originals/bsh-engine.jar" dest="bsh-engine.jar" usetimestamp="true" verbose="true" retries="5" />
 		<get src="http://central.maven.org/maven2/org/python/jython/2.2.1/jython-2.2.1.jar" dest="jython.jar" usetimestamp="true" verbose="true" retries="5" />

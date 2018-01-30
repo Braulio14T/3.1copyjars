@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER">
+		<accessrules>
+			<accessrule kind="accessible" pattern="com/sun/jndi/ldap/*"/>
+		</accessrules>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.pde.core.requiredPlugins">
+		<accessrules>
+			<accessrule kind="accessible" pattern="org/osgi/**"/>
+			<accessrule kind="accessible" pattern="org/eclipse/**"/>
+			<accessrule kind="accessible" pattern="javax/**"/>
+			<accessrule kind="accessible" pattern="org/restlet/**"/>
+			<accessrule kind="accessible" pattern="org/apache/**"/>
+		</accessrules>
+	</classpathentry>
+	<classpathentry kind="src" path="src/main/server"/>
+	<classpathentry kind="src" path="src/main/servlet"/>
+	<classpathentry kind="src" path="src/main/home"/>
+	<classpathentry exported="true" kind="lib" path="WEB-INF/lib/jardiff.jar"/>
+	<classpathentry exported="true" kind="lib" path="WEB-INF/lib/jnlp-servlet.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

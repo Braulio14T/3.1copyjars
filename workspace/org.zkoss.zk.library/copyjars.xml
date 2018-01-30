@@ -1,0 +1,20 @@
+<project name="zklibrary" basedir="." default="copy">
+	<target name="copy">
+		<get src="https://github.com/Braulio14T/3.1copyjars/raw/master/org.zkoss.zk.library/originals/zk.jar" dest="lib/zk.jar" usetimestamp="true" verbose="true" retries="5" />
+		<get src="https://github.com/Braulio14T/3.1copyjars/raw/master/org.zkoss.zk.library/originals/zul.jar" dest="lib/zul.jar" usetimestamp="true" verbose="true" retries="5" />
+		<get src="https://github.com/Braulio14T/3.1copyjars/raw/master/org.zkoss.zk.library/originals/zhtml.jar" dest="lib/zhtml.jar" usetimestamp="true" verbose="true" retries="5" />
+		<get src="https://github.com/Braulio14T/3.1copyjars/raw/master/org.zkoss.zk.library/originals/zkplus.jar" dest="lib/zkplus.jar" usetimestamp="true" verbose="true" retries="5" />
+		<get src="https://github.com/Braulio14T/3.1copyjars/raw/master/org.zkoss.zk.library/originals/zkbind.jar" dest="lib/zkbind.jar" usetimestamp="true" verbose="true" retries="5" />
+		<get src="https://github.com/Braulio14T/3.1copyjars/raw/master/org.zkoss.zk.library/originals/zcommon.jar" dest="lib/zcommon.jar" usetimestamp="true" verbose="true" retries="5" />
+		<get src="https://github.com/Braulio14T/3.1copyjars/raw/master/org.zkoss.zk.library/originals/zel.jar" dest="lib/zel.jar" usetimestamp="true" verbose="true" retries="5" />
+		<get src="https://github.com/Braulio14T/3.1copyjars/raw/master/org.zkoss.zk.library/originals/zweb.jar" dest="lib/zweb.jar" usetimestamp="true" verbose="true" retries="5" />
+		<get src="https://github.com/Braulio14T/3.1copyjars/raw/master/org.zkoss.zk.library/originals/ckez.jar" dest="lib/ckez.jar" usetimestamp="true" verbose="true" retries="5" />
+		<get src="https://github.com/Braulio14T/3.1copyjars/raw/master/org.zkoss.zk.library/originals/gmapsz.jar" dest="lib/gmapsz.jar" usetimestamp="true" verbose="true" retries="5" />
+		<get src="http://mavensync.zkoss.org/maven2/org/zkoss/zkforge/timelinez/2.3.1_50/timelinez-2.3.1_50.jar" dest="lib/timelinez.jar" usetimestamp="true" verbose="true" retries="5" />
+		<get src="http://mavensync.zkoss.org/maven2/org/zkoss/zkforge/timeplotz/1.1_50/timeplotz-1.1_50.jar" dest="lib/timeplotz.jar" usetimestamp="true" verbose="true" retries="5" />
+		<get src="http://mavensync.zkoss.org/maven2/org/zkoss/calendar/calendar/2.1.5/calendar-2.1.5.jar" dest="lib/calendar.jar" usetimestamp="true" verbose="true" retries="5" />
+		<get src="http://central.maven.org/maven2/commons-fileupload/commons-fileupload/1.2.2/commons-fileupload-1.2.2.jar" dest="lib/commons-fileupload.jar" usetimestamp="true" verbose="true" retries="5" />
+		<get src="http://central.maven.org/maven2/commons-io/commons-io/2.1/commons-io-2.1.jar" dest="lib/commons-io.jar" usetimestamp="true" verbose="true" retries="5" />
+		<get src="https://github.com/Braulio14T/3.1copyjars/raw/master/org.zkoss.zk.library/originals/junit.jar" dest="lib/junit.jar" usetimestamp="true" verbose="true" retries="5" />
+	</target>
+</project>

@@ -1,0 +1,74 @@
+*** 2018-01-29 17:46:03.854 idempiere Log (CLogFile) ***
+17:46:03.853 Adempiere.startup: iDempiere(r) Release 3.1_2015-10-31 -Smart Suite ERP, CRM and SCM- (c) 1999-2013 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community [13]
+17:46:03.858 Ini.loadProperties: /home/brau/sources/idempier31/idempiere.properties #28 [13]
+17:46:04.995 DB.isBuildOK: Build DB=${env.ADEMPIERE_VERSION} 20080428-1232 [13]
+17:46:04.996 DB.isBuildOK: Build Cl=3.1.0.qualifier [13]
+17:46:05.114-----------> DB.isBuildOK: Build Version Error 
+
+The program assumes build version 3.1.0.qualifier, but database has build version ${env.ADEMPIERE_VERSION} 20080428-1232. 
+This is likely to cause hard to fix errors. 
+Please contact administrator. [13]
+17:46:05.353 Language.getLanguage: Adding Language=en, Country=US, Locale=en_US [13]
+17:46:05.359 Language.getLanguage: Adding Language=en, Country=US, Locale=en_US [13]
+17:46:05.746 WebEnv.initWeb: Servlet Context Init Parameters: iDempiere Root
+ServerRoot=1 [13]
+17:46:05.769-----------> EMail.setFrom: you @ company.org: javax.mail.internet.AddressException: Local address contains control or whitespace in string ``you @ company.org'' [13]
+17:46:05.775-----------> EMail.addTo: you @ company.org: javax.mail.internet.AddressException: Local address contains control or whitespace in string ``you @ company.org'' [13]
+17:46:05.776-----------> EMail.isValid: From is invalid=null [13]
+17:46:05.776-----------> EMail.isValid: From is invalid=null [13]
+17:46:05.777-----------> MClient.sendEMail: Could NOT Send Email: Server started: iDempiere (brau-HP-ENVY-15-Notebook-PC:192.168.0.156) to you @ company.org: Invalid Data (System) [13]
+17:46:05.777 WebEnv.initWeb: Servlet Init Parameter: idempiereMonitor [13]
+17:46:05.778 AdempiereMonitor.init:  [13]
+17:46:07.373-----------> AnnotationConfiguration.configure: ServletContainerInitializers: detected. Class hierarchy: empty [13]
+17:46:07.806-----------> ClassLocator.getDependentXMLResources: Replicate resource: ckez
+Overwrite bundleresource://174.fwk777206150:2/metainfo/zk/config.xml
+with bundleresource://174.fwk777206150:19/metainfo/zk/config.xml [13]
+17:46:07.821-----------> ClassLocator.getDependentXMLResources: Replicate resource: zk
+Overwrite bundleresource://174.fwk777206150:11/metainfo/zk/config.xml
+with bundleresource://174.fwk777206150:28/metainfo/zk/config.xml [13]
+17:46:07.831-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkbind
+Overwrite bundleresource://174.fwk777206150:12/metainfo/zk/config.xml
+with bundleresource://174.fwk777206150:29/metainfo/zk/config.xml [13]
+17:46:07.884-----------> ClassLocator.getDependentXMLResources: Replicate resource: zul
+Overwrite bundleresource://174.fwk777206150:14/metainfo/zk/zk.xml
+with bundleresource://174.fwk777206150:31/metainfo/zk/zk.xml [13]
+17:46:08.584-----------> LanguageDefinition.<init>: Replicated language: xhtml, overriden by [LanguageDefinition: xhtml] [13]
+17:46:08.696-----------> LanguageDefinition.<init>: Replicated language: xul/html, overriden by [LanguageDefinition: xul/html] [13]
+17:46:08.958-----------> ClassLocator.getDependentXMLResources: Replicate resource: calendar
+Overwrite bundleresource://174.fwk777206150:1/metainfo/zk/lang-addon.xml
+with bundleresource://174.fwk777206150:18/metainfo/zk/lang-addon.xml [13]
+17:46:08.965-----------> ClassLocator.getDependentXMLResources: Replicate resource: ckez
+Overwrite bundleresource://174.fwk777206150:2/metainfo/zk/lang-addon.xml
+with bundleresource://174.fwk777206150:19/metainfo/zk/lang-addon.xml [13]
+17:46:08.977-----------> ClassLocator.getDependentXMLResources: Replicate resource: gmapsz
+Overwrite bundleresource://174.fwk777206150:5/metainfo/zk/lang-addon.xml
+with bundleresource://174.fwk777206150:22/metainfo/zk/lang-addon.xml [13]
+17:46:08.984-----------> ClassLocator.getDependentXMLResources: Replicate resource: timeline
+Overwrite bundleresource://174.fwk777206150:6/metainfo/zk/lang-addon.xml
+with bundleresource://174.fwk777206150:23/metainfo/zk/lang-addon.xml [13]
+17:46:08.990-----------> ClassLocator.getDependentXMLResources: Replicate resource: timeplot
+Overwrite bundleresource://174.fwk777206150:7/metainfo/zk/lang-addon.xml
+with bundleresource://174.fwk777206150:24/metainfo/zk/lang-addon.xml [13]
+17:46:09.027-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkbind
+Overwrite bundleresource://174.fwk777206150:12/metainfo/zk/lang-addon.xml
+with bundleresource://174.fwk777206150:29/metainfo/zk/lang-addon.xml [13]
+17:46:09.042-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkplus
+Overwrite bundleresource://174.fwk777206150:13/metainfo/zk/lang-addon.xml
+with bundleresource://174.fwk777206150:30/metainfo/zk/lang-addon.xml [13]
+17:46:09.215           WebUIServlet.init: iDempiere Web Client started successfully [13]
+17:46:09.920-----------> AnnotationConfiguration.configure: ServletContainerInitializers: detected. Class hierarchy: empty [13]
+
+*** 2018-01-29 17:46:10.524 idempiere Log (CLogFile) ***
+17:46:13.550-----------> Node: [192.168.0.156]:5701 [adempiere.idempiere/localhost] [3.5.3] No join method is enabled! Starting standalone. [38]
+17:46:38.336-----------> Doc_InOut.createFacts: No Costs for Plum Tree [45]
+17:46:39.372-----------> Doc_InOut.createFacts: No Costs for Plum Tree [45]
+17:46:39.713-----------> Doc_InOut.createFacts: Resubmit - No Costs for Plum Tree (required order line) [45]
+17:46:40.165-----------> FactLine.updateReverseLine: Not Found (try later) ,C_AcctSchema_ID=101, AD_Table_ID=319,Record_ID=102,Line_ID=102, Account_ID=587 [45]
+17:46:42.283-----------> Doc_InOut.createFacts: No Costs for Plum Tree [45]
+17:46:42.570-----------> Doc_InOut.createFacts: Resubmit - No Costs for Oak Tree (required order line) [45]
+17:46:42.835-----------> FactLine.updateReverseLine: Not Found (try later) ,C_AcctSchema_ID=101, AD_Table_ID=319,Record_ID=104,Line_ID=106, Account_ID=587 [45]
+17:46:49.595-----------> Doc_Order.isConvertible: NOT from C_Currency_ID=102 to 100 - MOrder[108-60000,IsSOTrx=true,C_DocType_ID=133, GrandTotal=228.85] [45]
+17:46:49.933-----------> Doc_Invoice.isConvertible: NOT from C_Currency_ID=102 to 100 - MInvoice[109-100000,GrandTotal=228.85 (#1)] [45]
+17:46:50.181-----------> Fact.isSegmentBalanced: (OO) NO - Fact[X_M_Movement[100],AcctSchema[101-GardenWorld US/A/US Dollar],PostType=A], Balance=-247.00 [45]
+
+*** 2018-01-29 17:47:45.828 idempiere Log (CLogFile) ***

@@ -1,0 +1,6 @@
+<project name="zklibrary" basedir="." default="copy">
+	<target name="copy">
+		<get src="https://github.com/Braulio14T/3.1copyjars/raw/master/org.adempiere.extend/spiffy-with_source-all-0.05.jar" dest="spiffy-with_source-all-0.05.jar" usetimestamp="true" verbose="true" retries="5" />
+		<get src="https://github.com/Braulio14T/3.1copyjars/raw/master/org.adempiere.extend/extend.jar" dest="extend.jar" usetimestamp="true" verbose="true" retries="5" />
+	</target>
+</project>

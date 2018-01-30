@@ -1,0 +1,7 @@
+<project name="zklibrary" basedir="." default="copy">
+	<target name="copy">
+		<mkdir dir="WEB-INF/lib" />
+		<get src="https://github.com/Braulio14T/3.1copyjars/raw/master/org.adempiere.server/jardiff.jar" dest="WEB-INF/lib/jardiff.jar" usetimestamp="true" verbose="true" retries="5" />
+		<get src="https://github.com/Braulio14T/3.1copyjars/raw/master/org.adempiere.server/jnlp-servlet.jar" dest="WEB-INF/lib/jnlp-servlet.jar" usetimestamp="true" verbose="true" retries="5" />
+	</target>
+</project>

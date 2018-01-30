@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.pde.core.requiredPlugins">
+		<accessrules>
+			<accessrule kind="accessible" pattern="java/awt/**"/>
+			<accessrule kind="accessible" pattern="java/sql/**"/>
+			<accessrule kind="accessible" pattern="java/util/**"/>
+			<accessrule kind="accessible" pattern="javax/**"/>
+			<accessrule kind="accessible" pattern="java/**"/>
+			<accessrule kind="accessible" pattern="org/eclipse/**"/>
+			<accessrule kind="accessible" pattern="org/restlet/**"/>
+			<accessrule kind="accessible" pattern="sun/awt/**"/>
+			<accessrule kind="accessible" pattern="org/apache/**"/>
+		</accessrules>
+	</classpathentry>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry exported="true" kind="lib" path="swingx-1.6.jar"/>
+	<classpathentry exported="true" kind="lib" path="looks-2.0.4.jar"/>
+	<classpathentry exported="true" kind="lib" path="miglayout-3.7.1-swing.jar"/>
+	<classpathentry exported="true" kind="lib" path="jpedal.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER">
+		<attributes>
+			<attribute name="owner.project.facets" value="java"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/org.adempiere.base/bsh-2.0b5.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

@@ -1,0 +1,22 @@
+*** 2018-01-29 12:43:48.878 idempiere Log (CLogFile) ***
+12:43:48.876 Setup.<init>: iDempiere(r) Release 3.1_2015-10-31 -Smart Suite ERP, CRM and SCM- (c) 1999-2013 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community [1]
+12:43:49.184 ConfigurationData.load: Defaults [1]
+12:43:56.029 Config.test: OK: JavaHome=/usr/lib/jvm/java-7-openjdk-amd64 [28]
+12:43:56.032 Config.test: OK: Version=1.7.0_95 [28]
+12:43:56.034 ConfigurationData.testAdempiere: OK: AdempiereHome = /home/brau/sources/idempier31 [28]
+12:43:56.048 KeyStoreMgt.<init>: /home/brau/sources/idempier31/jettyhome/etc/keystore [28]
+12:43:56.051 KeyStoreMgt.createCertificate:  [28]
+12:43:56.104 Env.getImageIcon2: GIF/PNG Not found: Ok16 [28]
+12:43:56.105 Env.getImageIcon2: GIF/PNG Not found: Ok24 [28]
+12:43:56.111 Env.getImageIcon2: GIF/PNG Not found: Cancel16 [28]
+12:43:56.112 Env.getImageIcon2: GIF/PNG Not found: Cancel24 [28]
+12:44:00.591 KeyStoreMgt.keytool: keytool -genkey -keyalg rsa -alias idempiere -dname "CN=brau-HP-ENVY-15-Notebook-PC, OU=brau, O=AdempiereUser, L=MyTown, C=CL" -keypass myPassword -validity 999 -keystore /home/brau/sources/idempier31/jettyhome/etc/keystore -storepass myPassword [28]
+12:44:01.834 KeyStoreMgt.keytool: keytool -selfcert -alias idempiere -dname "CN=brau-HP-ENVY-15-Notebook-PC, OU=brau, O=AdempiereUser, L=MyTown, C=CL" -keypass myPassword -validity 999 -keystore /home/brau/sources/idempier31/jettyhome/etc/keystore -storepass myPassword [28]
+12:44:01.920 ConfigurationData.testAdempiere: OK: KeyStore = /home/brau/sources/idempier31/jettyhome/etc/keystore [28]
+12:44:01.925 Config.test: OK: AppsServer = brau-HP-ENVY-15-Notebook-PC/127.0.1.1 [28]
+12:44:01.984-----------> ConfigurationData.testServerPort: Port 8080: La dirección ya se está usando [28]
+12:44:01.985-----------> ConfigurationData.test: Not correct: Web Port = 8080 [28]
+12:44:01.991===========> ConfigurationPanel$1.finished: Error Puerto Web 
+(Not correct: Web Port = 8080) [25]
+
+*** 2018-01-29 12:44:08.155 idempiere Log (CLogFile) ***
